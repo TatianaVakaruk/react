@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode=development --devtool source-map",
-   "build": "webpack --mode=production"
+    "start": "webpack serve --mode=development --devtool source-map --open",
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
